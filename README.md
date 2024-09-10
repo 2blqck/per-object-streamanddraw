@@ -74,9 +74,9 @@ For this to work, you need to use Streamer.
 https://github.com/samp-incognito/samp-streamer-plugin
 
 <br />
-Before:<br />
-![before](https://github.com/user-attachments/assets/65bdf38c-13a3-451a-8c03-6bb2da26c8ac)<br />
-![before](https://github.com/user-attachments/assets/ededaa15-a6fa-4888-a3f4-6e052d5cc62a)
-<br />
 After:<br />
-![after](https://github.com/user-attachments/assets/f796d5d7-382b-4aec-9a42-d57478de6218)
+https://raw.githubusercontent.com/2blqck/per-object-streamanddraw/main/after.png<br />
+<br />
+Before:<br />
+https://raw.githubusercontent.com/2blqck/per-object-streamanddraw/main/before-1.png<br />
+https://raw.githubusercontent.com/2blqck/per-object-streamanddraw/main/before-2.png
