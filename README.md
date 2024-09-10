@@ -66,8 +66,6 @@ How to use?
 Just replace CreateDynamicObject with CDO (or whatever you called it).
 ```c
 CreateDynamicObject(OBJECT_ID, X, Y, Z, RX, RY, RZ); 
-```
-```c
 CDO(OBJECT_ID, X, Y, Z, RX, RY, RZ); 
 ```
 
@@ -77,8 +75,8 @@ https://github.com/samp-incognito/samp-streamer-plugin
 
 <br />
 Before:<br />
-![sa-mp-021 (2)](https://github.com/user-attachments/assets/65bdf38c-13a3-451a-8c03-6bb2da26c8ac)<br />
-![sa-mp-021 (1)](https://github.com/user-attachments/assets/ededaa15-a6fa-4888-a3f4-6e052d5cc62a)
+![before](https://github.com/user-attachments/assets/65bdf38c-13a3-451a-8c03-6bb2da26c8ac)<br />
+![before](https://github.com/user-attachments/assets/ededaa15-a6fa-4888-a3f4-6e052d5cc62a)
 <br />
 After:<br />
-![sa-mp-021](https://github.com/user-attachments/assets/f796d5d7-382b-4aec-9a42-d57478de6218)
+![after](https://github.com/user-attachments/assets/f796d5d7-382b-4aec-9a42-d57478de6218)
