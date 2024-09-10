@@ -8,8 +8,8 @@ forward CDO(modelid, Float:x, Float:y, Float:z, Float:rx, Float:ry, Float:rz);
 public CDO(modelid, Float:x, Float:y, Float:z, Float:rx, Float:ry, Float:rz) 
 {
     // Default values if an object is not present below
-	new Float:streamingDistance = 100.0,
-		Float:drawingDistance = 100.0;
+	new Float:streamingDistance = 300.0,
+		Float:drawingDistance = 300.0;
 
 	switch(modelid)
 	{
@@ -26,8 +26,8 @@ Example
 forward CDO(modelid, Float:x, Float:y, Float:z, Float:rx, Float:ry, Float:rz);
 public CDO(modelid, Float:x, Float:y, Float:z, Float:rx, Float:ry, Float:rz) 
 {
-	new Float:streamingDistance = 100.0,
-		Float:drawingDistance = 100.0;
+	new Float:streamingDistance = 300.0,
+		Float:drawingDistance = 300.0;
 
 	switch(modelid)
 	{
