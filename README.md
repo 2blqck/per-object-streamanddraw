@@ -103,10 +103,10 @@ https://github.com/samp-incognito/samp-streamer-plugin
 ## Preview
 ### Before
 ```bash
-https://raw.githubusercontent.com/2blqck/per-object-streamanddraw/main/before-1.png<br />
+https://raw.githubusercontent.com/2blqck/per-object-streamanddraw/main/before-1.png
 https://raw.githubusercontent.com/2blqck/per-object-streamanddraw/main/before-2.png
 ```
 ### After
 ```bash
-https://raw.githubusercontent.com/2blqck/per-object-streamanddraw/main/after.png<br />
+https://raw.githubusercontent.com/2blqck/per-object-streamanddraw/main/after.png
 ```
