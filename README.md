@@ -1,8 +1,8 @@
 # per-object-streamanddraw
 This function enables you to set custom draw and stream distance for each object ID (or group of objects, as seen in the example).
 It was created to fix disappearing objects in maps with lots of objects.
-<br /><br />
-Function
+
+## Function
 ```c
 forward CDO(modelid, Float:x, Float:y, Float:z, Float:rx, Float:ry, Float:rz);
 public CDO(modelid, Float:x, Float:y, Float:z, Float:rx, Float:ry, Float:rz) 
@@ -22,8 +22,8 @@ public CDO(modelid, Float:x, Float:y, Float:z, Float:rx, Float:ry, Float:rz)
 	return CreateDynamicObject(modelid, Float:x, Float:y, Float:z, Float:rx, Float:ry, Float:rz, .worldid = -1, .streamdistance = streamingDistance, .drawdistance = drawingDistance, .priority = objectPriority);
 }
 ```
-<br /><br />
-Example
+
+## Example
 ```c
 forward CDO(modelid, Float:x, Float:y, Float:z, Float:rx, Float:ry, Float:rz);
 public CDO(modelid, Float:x, Float:y, Float:z, Float:rx, Float:ry, Float:rz) 
@@ -86,22 +86,27 @@ public CDO(modelid, Float:x, Float:y, Float:z, Float:rx, Float:ry, Float:rz)
 	return CreateDynamicObject(modelid, Float:x, Float:y, Float:z, Float:rx, Float:ry, Float:rz, .worldid = -1, .streamdistance = streamingDistance, .drawdistance = drawingDistance, .priority = objectPriority);
 }
 ```
-<br /><br />
-How to use?
+
+## Usage
 Just replace CreateDynamicObject with CDO (or whatever you called it).
 ```c
 CreateDynamicObject(OBJECT_ID, X, Y, Z, RX, RY, RZ); 
 CDO(OBJECT_ID, X, Y, Z, RX, RY, RZ); 
 ```
 
-<br /><br />
+## Dependencies
 For this to work, you need to use Streamer.
+```bash
 https://github.com/samp-incognito/samp-streamer-plugin
+```
 
-<br />
-After:<br />
-https://raw.githubusercontent.com/2blqck/per-object-streamanddraw/main/after.png<br />
-<br />
-Before:<br />
+## Preview
+### Before
+```bash
 https://raw.githubusercontent.com/2blqck/per-object-streamanddraw/main/before-1.png<br />
 https://raw.githubusercontent.com/2blqck/per-object-streamanddraw/main/before-2.png
+```
+### After
+```bash
+https://raw.githubusercontent.com/2blqck/per-object-streamanddraw/main/after.png<br />
+```
